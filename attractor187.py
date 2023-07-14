@@ -63,7 +63,7 @@ buf = io.BytesIO()
 img.to_pil().save(buf, format='PNG')
 image = Image.open(buf)
 image = ImageOps.expand(image,border=int(int(sizepx)/10),fill=background)
-image.save("test.png","PNG")
+image.save("test.png","PNG") #you can change the image name
 buf.close()
 image.close()
 img.close()
