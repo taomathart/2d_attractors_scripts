@@ -46,10 +46,9 @@ def generatePoints(diter,coefs,x0=None,y0=None):
 start = time.process_time()
 iterations = 20000000 #number of points, you can change this value (100.000.000 max (6000px resolution) for a good pc.. 16gb ram, proc i7 10700 takes aprox. 50 seconds)
 sizepx = 2000   #resolution , you can change this value
-
 colormap = cm.get_cmap("cmr.ocean")
-
 background = 'black'
+
 coefs = [2.899210625358158,-0.5578814184426273,0.9620240055847917,-0.8464045745142403] #constants used for the equations
 
 x,y = generatePoints(int(iterations),np.array(coefs))
