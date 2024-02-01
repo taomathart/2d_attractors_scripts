@@ -34,7 +34,7 @@ def generatePoints(diter,coefs,x0=None,y0=None):
     print('Iteration done')
 
     return x,y
-#8.75
+
 start = time.process_time()
 iterations = 20000000 #number of points, you can change this value 27.62
 sizepx = 2000   #resolution , you can change this value
