@@ -36,7 +36,7 @@ def generatePoints(diter,coefs,x0=None,y0=None):
     return x,y
 
 start = time.process_time()
-iterations = 20000000 #number of points, you can change this value 27.62
+iterations = 20000000 #number of points, you can change this value
 sizepx = 2000   #resolution , you can change this value
 
 colormap = cm.get_cmap("cmr.lilac")
